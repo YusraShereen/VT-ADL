@@ -169,7 +169,7 @@ def ran_generator(length, shots=1):
         
         
 class Mvtec:
-    def __init__(self, batch_size,root="D:\\second year\\mvtec_anomaly_detection", product= 'bottle'):
+    def __init__(self, batch_size,root="/kaggle/input/ad-mri-dataset/Transformed_DS", product= 'bottle'):
         self.root = root
         self.batch = batch_size
         self.product = product
